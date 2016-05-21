@@ -1,0 +1,11 @@
+
+print "99 bottles of beer on the wall, 99 bottles of beer ..."
+
+for number in range(98, 1, -1):
+    print "Take one down, pass it around, {0} bottles of beer on the wall".format(number)
+    # How I learned the song as a kid!
+    print "{0} bottles of beer on the wall, {0} bottles of beer...".format(number)
+
+print "Take one down, pass it around, 1 bottle of beer on the wall"
+
+
